@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\OOP.Patterns.Creational.AbstractFactory\OOP.Patterns.Creational.AbstractFactory.csproj" />
+    <ProjectReference Include="..\OOP.Patterns.Creational.Builder\OOP.Patterns.Creational.Builder.csproj" />
+    <ProjectReference Include="..\OOP.Patterns.Creational.Prototype\OOP.Patterns.Creational.Prototype.csproj" />
+    <ProjectReference Include="..\OOP.Patterns.Creational.Singleton\OOP.Patterns.Creational.Singleton.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
